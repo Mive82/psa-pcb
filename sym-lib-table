@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name "raspberrypi-gpio-40pin-rescue")(type "Legacy")(uri "${KIPRJMOD}/raspberrypi-gpio-40pin-rescue.lib")(options "")(descr "")(disabled))
+  (lib (name "ESP32_shield")(type "KiCad")(uri "${KIPRJMOD}/lib/ESP32_shield.kicad_sym")(options "")(descr ""))
+  (lib (name "Level_shifter_shield")(type "KiCad")(uri "${KIPRJMOD}/lib/Level_shifter_shield.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP2551_shield")(type "KiCad")(uri "${KIPRJMOD}/lib/MCP2551_shield.kicad_sym")(options "")(descr ""))
+  (lib (name "TSS463C")(type "KiCad")(uri "${KIPRJMOD}/lib/TSS463C.kicad_sym")(options "")(descr ""))
+)
