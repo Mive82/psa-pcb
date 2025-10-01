@@ -1,3 +1,6 @@
 (fp_lib_table
-  (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/lib")(options "")(descr ""))
+  (version 7)
+  (lib (name "intoftainment")(type "KiCad")(uri "${KIPRJMOD}/lib/intoftainment.pretty")(options "")(descr ""))
+  (lib (name "EasyEDA")(type "KiCad")(uri "${KIPRJMOD}/lib/easyeda/EasyEDA.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints.pretty")(options "")(descr ""))
 )
