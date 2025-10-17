@@ -45,34 +45,34 @@ The `GPIO12` pin is used for SPI communication with the TSS463C. It is also used
 to access the onboard flash. This pin is floating, so the value will not always be correct. This will result in regular booting
 and flashing issues.
 
-**SOLUTION**: Burn eFuses with `esptool.py` to permanently set the voltage used. On the ESP32-WROOM module we used, the voltage was 3.3V
+**SOLUTION**: Burn eFuses with `esptool.py` to permanently set the voltage used. On the ESP32-WROOM module we used, the voltage was 3.3V [Implemented]
 
 ## ESP first boot issues
 
 When first powering the board on, the ESP will always boot into flash mode. This is because of a capacitor on the `GPIO0` pin that was not needed: `C6`.
 
-**SOLUTION**: Remove the `C6` capacitor.
+**SOLUTION**: Remove the `C6` capacitor. [Implemented]
 
 ## VAN TX not working
 
 The transistor switches used for putting the MCP2551 in a low-power state and resetting the TSS are not designed correctly.
 They don't reset the TSS, but the MCP2551 is always put in a low power state which prevents it from sending any CAN/VAN data.
 
-**SOLUTION**: Remove both transistor switches and surrounding hardware (`Q6`, `R21`, `R1`, `Q5` and `C1`). 
+**SOLUTION**: Remove both transistor switches and surrounding hardware (`Q6`, `R21`, `R1`, `Q5` and `C1`). [Implemented]
 Pull pin `Rs` on the MCP2551 to GND with a 4.7k resistor. Note that, according the datasheet, this will increase power draw
-by 9 or 10 mA.
+by 9 or 10 mA. [Implemented]
 
 ## ESP32 VAN RX not working after VAN+ dissapears
 
 This issue occured due to an oversight on level shifter pins. The VCC reference pin on one side is tied to the VAN+ regulator and will
 dissapear when VAN+ dissapears.
 
-**SOLUTION**: On chip U11 cut the trace connecting pin 11 (`VCC(B)`) and `+5V ignition`. then connect pin 11 to `+5V Car Battery`.
-Best location would the one of the pads of `R21` which is be removed to fix the issue above this one.
+**SOLUTION**: On chip U11 cut the trace connecting pin 11 (`VCC(B)`) and `+5V ignition`. then connect pin 11 to `+5V Car Battery`. [Implemented]
+Best location would the one of the pads of `R21` which is be removed to fix the issue above this one. 
 
 ### High deep sleep power consumption
 
 The board pulls about 35mA on 12V during deep sleep. This increases the more voltage increases.
 Not yet sure what is causing this, but removing the pull resistors from the `MODE` pins on the buck regulators reduces it to about 12mA.
 
-**PARTIAL SOLUTION**: Remove `R110` and `R118`.
+**PARTIAL SOLUTION**: Remove `R110` and `R118`. [Implemented]
