@@ -3392,7 +3392,7 @@
 		)
 	)
 	(global_label "+5V Car Battery"
-		(shape output)
+		(shape input)
 		(at 99.06 106.68 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3436,7 +3436,7 @@
 		)
 	)
 	(global_label "+3V3 Car Battery"
-		(shape output)
+		(shape input)
 		(at 113.03 123.19 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3447,7 +3447,7 @@
 		)
 		(uuid "ece762b7-6df1-4f37-83da-13fcb5ac7c5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.0435 123.19 0)
+			(at 132.9484 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,7 +3458,7 @@
 		)
 	)
 	(global_label "+5V Car Battery"
-		(shape output)
+		(shape input)
 		(at 118.11 53.34 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3469,7 +3469,7 @@
 		)
 		(uuid "eeda85cc-788d-4bf7-900d-2ea6b9ccfb80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.914 53.34 0)
+			(at 136.8189 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,7 +3480,7 @@
 		)
 	)
 	(global_label "+5V Car Battery"
-		(shape output)
+		(shape input)
 		(at 46.99 67.31 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3491,7 +3491,7 @@
 		)
 		(uuid "f4683fa0-ed22-4e35-8047-c8dec7ba6a8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.186 67.31 0)
+			(at 28.2811 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)

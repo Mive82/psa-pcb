@@ -1695,6 +1695,10 @@
 		(at 212.09 49.53)
 		(uuid "5f48e92c-6aef-4868-bf0c-4031d4d4c089")
 	)
+	(no_connect
+		(at 78.74 34.29)
+		(uuid "8c06fb70-2737-4234-af28-21f6034d161e")
+	)
 	(wire
 		(pts
 			(xy 48.26 44.45) (xy 40.64 44.45)
@@ -1927,7 +1931,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 29.21) (xy 48.26 29.21)
+			(xy 44.45 29.21) (xy 48.26 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1987,17 +1991,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 34.29) (xy 82.55 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80390e82-e3d9-4890-b705-ca84180f56c0")
-	)
-	(wire
-		(pts
-			(xy 38.1 36.83) (xy 48.26 36.83)
+			(xy 44.45 36.83) (xy 48.26 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2077,7 +2071,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 34.29) (xy 48.26 34.29)
+			(xy 44.45 34.29) (xy 48.26 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2218,7 +2212,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 31.75) (xy 48.26 31.75)
+			(xy 44.45 31.75) (xy 48.26 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2256,16 +2250,6 @@
 		)
 		(uuid "ff6b056c-aca7-457d-9633-64f73bd33057")
 	)
-	(label "TSS_MOSI"
-		(at 82.55 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "22efa119-066c-45e2-9e78-cee98783a12b")
-	)
 	(label "XTAL2"
 		(at 58.42 77.47 0)
 		(effects
@@ -2275,26 +2259,6 @@
 			(justify left bottom)
 		)
 		(uuid "3ce78ab7-9a99-4864-8abb-96517cf5b8d8")
-	)
-	(label "TSS_MOSI"
-		(at 127 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "43f7d224-110d-4ac4-9500-9058f9839cac")
-	)
-	(label "TSS Reset"
-		(at 82.55 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a75df00-3658-4366-94d3-5d31897f601d")
 	)
 	(label "XTAL1"
 		(at 38.1 39.37 0)
@@ -2306,26 +2270,6 @@
 		)
 		(uuid "7121da3a-227c-4ac6-98b9-53ca65543f3b")
 	)
-	(label "TSS_MISO"
-		(at 127 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8542d163-5466-401a-949d-95f87a7abf62")
-	)
-	(label "TSS_MISO"
-		(at 38.1 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e7bb241-a8f1-4528-b033-31efff79977e")
-	)
 	(label "XTAL1"
 		(at 58.42 69.85 0)
 		(effects
@@ -2335,16 +2279,6 @@
 			(justify left bottom)
 		)
 		(uuid "a596cf59-6e28-49b9-82fb-8e49be8110f9")
-	)
-	(label "TSS_SCLK"
-		(at 82.55 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b4878171-7c88-43ab-b8f7-3faf72bc1c84")
 	)
 	(label "XTAL2"
 		(at 38.1 41.91 0)
@@ -2356,35 +2290,27 @@
 		)
 		(uuid "ddc8376a-8618-4ffc-85b7-3b98375d507f")
 	)
-	(label "TSS_SCLK"
-		(at 127 81.28 0)
+	(global_label "TSS_MOSI"
+		(shape input)
+		(at 127 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "e318874b-d5b5-4ebc-960a-d242b661b0be")
-	)
-	(label "TSS_SS"
-		(at 38.1 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "06d80127-d3ab-40d7-8b62-ad3372d6c4ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.9356 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
 			)
-			(justify left bottom)
 		)
-		(uuid "ef61e623-403f-4695-a58b-b1244af60d68")
-	)
-	(label "TSS_SS"
-		(at 127 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f620af2a-08b5-4c90-b0c9-ebefc1179d47")
 	)
 	(global_label "ESP_TSS_MISO"
 		(shape input)
@@ -2404,6 +2330,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TSS Interrupt 5V"
+		(shape input)
+		(at 127 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "225d7e90-3b51-431f-800a-391f67ad9ac3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.8644 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2452,9 +2400,31 @@
 			)
 		)
 	)
+	(global_label "TSS Interrupt 3.3V"
+		(shape input)
+		(at 96.52 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "332db423-0953-4124-bb68-93828d11a979")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.8413 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+5V Car Battery"
-		(shape output)
-		(at 38.1 36.83 180)
+		(shape input)
+		(at 44.45 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2464,7 +2434,29 @@
 		)
 		(uuid "401cfc2a-ac22-4aa2-8c35-5eae3fb54c05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.296 36.83 0)
+			(at 25.7411 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TSS_MISO"
+		(shape input)
+		(at 44.45 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45d3504e-b469-45c2-8457-f55c015dc345")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.5144 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2496,6 +2488,28 @@
 			)
 		)
 	)
+	(global_label "TSS_CLK"
+		(shape input)
+		(at 82.55 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bb1ae7a-6429-4412-ba40-92b48a0175ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.4575 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VAN_L"
 		(shape input)
 		(at 246.38 49.53 0)
@@ -2514,6 +2528,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TSS_SS"
+		(shape input)
+		(at 44.45 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71a78fdd-6649-42fa-a8ac-3ef202baeb86")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.6916 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2542,7 +2578,7 @@
 	)
 	(global_label "TSS Interrupt 5V"
 		(shape input)
-		(at 38.1 34.29 180)
+		(at 44.45 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2552,7 +2588,7 @@
 		)
 		(uuid "98c15942-724e-4ba5-859b-2c533a6ff793")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.2356 34.29 0)
+			(at 25.5856 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2585,7 +2621,7 @@
 		)
 	)
 	(global_label "+5V Car Battery"
-		(shape output)
+		(shape input)
 		(at 219.71 30.48 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2596,7 +2632,7 @@
 		)
 		(uuid "9ae2b8d8-d16b-452c-86d4-cd36da20b374")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.906 30.48 0)
+			(at 201.0011 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2643,7 @@
 		)
 	)
 	(global_label "+5V Car Battery"
-		(shape output)
+		(shape input)
 		(at 127 76.2 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2619,6 +2655,28 @@
 		(uuid "aa877ae7-29c7-4df0-8d58-43f5669d17a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 145.7089 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TSS_SS"
+		(shape input)
+		(at 127 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abd6c4fa-3229-4c3a-948d-7e78b0d3e6fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.7584 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,8 +2708,30 @@
 			)
 		)
 	)
+	(global_label "TSS_MISO"
+		(shape input)
+		(at 127 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c15140d1-0640-41d1-9bde-b3a96eeae613")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.9356 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+3V3 Car Battery"
-		(shape output)
+		(shape input)
 		(at 96.52 73.66 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2662,29 +2742,7 @@
 		)
 		(uuid "c8294529-ed37-4753-9b7c-cc776b3b05b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.5065 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ESP_TSS_SCK"
-		(shape input)
-		(at 96.52 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d038eb2e-4364-4fe7-b345-d7f1da2518de")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.7399 78.74 0)
+			(at 76.6016 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2707,6 +2765,28 @@
 		(uuid "e7765751-0523-4595-9ed3-4f0434c098e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 275.5861 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TSS_MOSI"
+		(shape input)
+		(at 82.55 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fac489cf-4567-409d-b4db-6e77039b55fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.4856 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
