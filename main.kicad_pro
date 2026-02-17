@@ -478,7 +478,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "intoftainment"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
