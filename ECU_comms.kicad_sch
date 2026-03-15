@@ -3722,7 +3722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8a72f6a-6334-4f42-9844-d29b4a27f006")
-		(property "Reference" "TP4"
+		(property "Reference" "V_TX1"
 			(at 197.612 35.56 0)
 			(effects
 				(font
@@ -3774,7 +3774,7 @@
 		(instances
 			(project "main"
 				(path "/3ec17d1d-183f-42c7-9d9d-808fb8c0b5df/1f81d540-bd2e-41ca-a04c-4848f2b3d4b3"
-					(reference "TP4")
+					(reference "V_TX1")
 					(unit 1)
 				)
 			)
@@ -3988,7 +3988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f61a306a-722e-423a-989b-f7ba7143a323")
-		(property "Reference" "TP5"
+		(property "Reference" "V_RX1"
 			(at 201.422 46.99 0)
 			(effects
 				(font
@@ -4040,7 +4040,7 @@
 		(instances
 			(project "main"
 				(path "/3ec17d1d-183f-42c7-9d9d-808fb8c0b5df/1f81d540-bd2e-41ca-a04c-4848f2b3d4b3"
-					(reference "TP5")
+					(reference "V_RX1")
 					(unit 1)
 				)
 			)
