@@ -5310,7 +5310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "intoftainment:esp32_altered"
+		(property "Footprint" "RF_Module:ESP32-WROOM-32D"
 			(at 67.31 116.84 0)
 			(effects
 				(font
