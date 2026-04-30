@@ -4263,7 +4263,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
+		(property "Value" "MMBT2222ATT3G"
 			(at 148.59 119.3799 0)
 			(effects
 				(font
@@ -4716,7 +4716,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
+		(property "Value" "MMBT2222ATT3G"
 			(at 148.59 99.0599 0)
 			(effects
 				(font
@@ -5046,7 +5046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
+		(property "Description" ""
 			(at 135.89 30.48 0)
 			(effects
 				(font
@@ -5509,7 +5509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 156.21 69.85 0)
 			(effects
 				(font

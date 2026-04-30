@@ -1223,7 +1223,7 @@
 	)
 	(rectangle
 		(start 228.6 74.93)
-		(end 264.16 127)
+		(end 279.4 127)
 		(stroke
 			(width 0)
 			(type default)
@@ -3129,7 +3129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 247.65 49.53 0)
 			(effects
 				(font
@@ -3204,7 +3204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 128.27 40.64 0)
 			(effects
 				(font
@@ -3346,7 +3346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 138.43 96.52 0)
 			(effects
 				(font
@@ -3596,7 +3596,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uH"
+		(property "Value" "TYA40204R7M-10"
 			(at 115.57 31.75 90)
 			(effects
 				(font
@@ -3760,7 +3760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 160.02 96.52 0)
 			(effects
 				(font
@@ -3976,7 +3976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 43.18 87.63 0)
 			(effects
 				(font
@@ -4491,7 +4491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 96.52 85.09 0)
 			(effects
 				(font
@@ -4699,7 +4699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 259.08 49.53 0)
 			(effects
 				(font
@@ -4774,7 +4774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 43.18 31.75 0)
 			(effects
 				(font
@@ -4843,7 +4843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 96.52 29.21 0)
 			(effects
 				(font
@@ -4978,7 +4978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 53.34 87.63 0)
 			(effects
 				(font
@@ -5322,7 +5322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 193.04 25.4 0)
 			(effects
 				(font
@@ -5370,7 +5370,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uH"
+		(property "Value" "TYA40204R7M-10"
 			(at 115.57 87.63 90)
 			(effects
 				(font
@@ -5465,7 +5465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 149.86 96.52 0)
 			(effects
 				(font
@@ -5532,7 +5532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 193.04 34.29 0)
 			(effects
 				(font
@@ -5676,7 +5676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 138.43 40.64 0)
 			(effects
 				(font
@@ -5745,7 +5745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 160.02 40.64 0)
 			(effects
 				(font
@@ -6168,7 +6168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 252.73 110.49 0)
 			(effects
 				(font
@@ -6309,7 +6309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 53.34 31.75 0)
 			(effects
 				(font
@@ -6378,7 +6378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 128.27 96.52 0)
 			(effects
 				(font
@@ -6447,7 +6447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 149.86 40.64 0)
 			(effects
 				(font

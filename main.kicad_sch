@@ -2585,16 +2585,6 @@
 		)
 		(uuid "a7027911-fde0-4f68-86d4-438b51f928ee")
 	)
-	(text "This board is designed to act as a HAT\nfor a Raspberry Pi 3B (non plus).\n\nIt would work for a 3B+, but the RUN header is not in the same place,\nso the power control would not work.\n\nThere are 2 power rails, one for the ESP, and one for the Pi.\nThe ESP is designed to be powered by the permanent 12 volt rail\nfrom the car, and the Pi from the VAN+ rail that comes on when\nthe car wakes up from sleep.\n\nBy using the ${f7473ed4-a3a0-4b2d-bc64-33b6e5e2e529:VALUE} jumper, you can power the ESP\nfrom the VAN+ Power rail.\n\nNote: The VAN+ power rail is also 12 volts, \nbut this board expects it to be regulated by\nan external voltage regulator (for now).\n\nThe board can also be used as a standalone\nVAN bus reader."
-		(exclude_from_sim no)
-		(at 107.95 163.068 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c9b694d7-f0ef-4fbe-9297-11694bf070d8")
-	)
 	(junction
 		(at 83.82 71.12)
 		(diameter 1.016)
@@ -4070,6 +4060,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Library" "./"
@@ -4254,7 +4245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 129.54 128.27 0)
 			(effects
 				(font
@@ -4391,7 +4382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" ""
 			(at 228.6 95.25 0)
 			(effects
 				(font
@@ -4826,7 +4817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
+		(property "Description" ""
 			(at 214.63 62.23 0)
 			(effects
 				(font
